@@ -29,6 +29,8 @@ class Employees{
          System.out.println("call with friend");
      }
  }
+
+
 public class task1 {
     public static void main(String[] args) {
         Employees niraj =new Employees();
