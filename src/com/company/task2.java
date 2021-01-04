@@ -1,5 +1,7 @@
 package com.company;
 class worker{
+    private int id;
+    private String name;
     public String getName(){
         return name;
     }
@@ -15,6 +17,11 @@ class worker{
 }
 public class task2 {
     public static void main(String[] args) {
+        worker niraj= new worker();
+        niraj.setName("niraj mulani");
+        System.out.println(niraj.getName());
+        niraj.setId(1);
+        System.out.println(niraj.getId());
 
     }
 }
