@@ -3,9 +3,16 @@ class cylinder{
     private int hight;
     private int radius;
 
+    public cylinder(int radius,int hight) {
+        this.radius = radius;
+        this.hight=hight;
+    }
+
     public int getHight() {
         return hight;
     }
+
+
 
     public void setHight(int hight) {
         this.hight = hight;
@@ -26,10 +33,13 @@ class cylinder{
 }
 public class exercise4 {
     public static void main(String[] args) {
-        cylinder cy=new cylinder();
-        cy.setHight(2);
-        cy.setRadius(2);
+        cylinder cy=new cylinder(2,3);
+//        cy.setHight(2);
+//        cy.setRadius(2);
+        System.out.println(cy.getHight());
+        System.out.println(cy.getRadius());
         System.out.println(cy.surfaceare());
+
 
     }
 }
