@@ -45,7 +45,7 @@ public class exercise5 {
         while(!b){
             g.takeUserInput();
             b=g.isCorrectNumber();
-            System.out.println(b);
+
         }
     }
 
